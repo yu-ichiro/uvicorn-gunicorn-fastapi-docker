@@ -5,8 +5,13 @@ import sys
 environments = [
     {
         "NAME": "latest",
-        "BUILD_PATH": "python3.7",
-        "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.7",
+        "BUILD_PATH": "python3.8",
+        "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.8",
+    },
+    {
+        "NAME": "python3.8",
+        "BUILD_PATH": "python3.8",
+        "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.8",
     },
     {
         "NAME": "python3.7",
@@ -19,6 +24,11 @@ environments = [
         "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.6",
     },
     {
+        "NAME": "python3.8-slim",
+        "BUILD_PATH": "python3.8-slim",
+        "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.8",
+    },
+    {
         "NAME": "python3.7-slim",
         "BUILD_PATH": "python3.7-slim",
         "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.7",
@@ -27,6 +37,11 @@ environments = [
         "NAME": "python3.6-slim",
         "BUILD_PATH": "python3.6-slim",
         "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.6",
+    },
+    {
+        "NAME": "python3.8-alpine3.11",
+        "BUILD_PATH": "python3.8",
+        "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn in Alpine. Using Python 3.8",
     },
     {
         "NAME": "python3.7-alpine3.11",
