@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/yu-ichiro/uvicorn-gunicorn-fastapi-docker.svg?branch=master)](https://travis-ci.org/yu-ichiro/uvicorn-gunicorn-fastapi-docker)
+[![Build Status](https://travis-ci.org/yu-ichiro/uvicorn-gunicorn-fastapi-docker.svg?branch=yu-ichiro)](https://travis-ci.org/yu-ichiro/uvicorn-gunicorn-fastapi-docker)
 
 ## Supported tags and respective `Dockerfile` links
 
