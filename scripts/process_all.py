@@ -19,6 +19,16 @@ environments = [
         "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.6",
     },
     {
+        "NAME": "python3.7-slim",
+        "BUILD_PATH": "python3.7-slim",
+        "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.7",
+    },
+    {
+        "NAME": "python3.6-slim",
+        "BUILD_PATH": "python3.6-slim",
+        "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn. Using Python 3.6",
+    },
+    {
         "NAME": "python3.7-alpine3.11",
         "BUILD_PATH": "python3.7-alpine3.11",
         "TEST_STR1": "Hello world! From FastAPI running on Uvicorn with Gunicorn in Alpine. Using Python 3.7",
