@@ -2,7 +2,7 @@
 
 set -e
 
-use_tag="tiangolo/uvicorn-gunicorn-fastapi:$NAME"
+use_tag="yuichiroluke/uvicorn-gunicorn-fastapi:$NAME"
 use_dated_tag="${use_tag}-$(date -I)"
 
 docker build -t "$use_tag" "$BUILD_PATH"

@@ -31,7 +31,7 @@ def verify_container(container, response_text):
 
 def test_defaults():
     name = os.getenv("NAME")
-    image = f"tiangolo/uvicorn-gunicorn-fastapi:{name}"
+    image = f"yuichiroluke/uvicorn-gunicorn-fastapi:{name}"
     response_text = os.getenv("TEST_STR1")
     sleep_time = int(os.getenv("SLEEP_TIME", 1))
     remove_previous_container(client)

@@ -1,6 +1,6 @@
-FROM tiangolo/uvicorn-gunicorn:python3.7-slim
+FROM yuichiroluke/uvicorn-gunicorn:python3.7-slim
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Yuichiro Smith <contact@yu-smith.com>"
 
 RUN pip install fastapi
 
